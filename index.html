@@ -33,25 +33,49 @@
 
 <div class="ui borderless menu" style="border-style: none; box-shadow: none">
   <div class="ui centered grid container">
-    <a class="item">MEN<div class="ui dropdown">
+    <div class="ui dropdown item">MEN
       <i class="caret down icon"></i>
-    </div></a>
-    <a class="item">WOMEN<div class="ui dropdown">
+        <div class="menu">
+          <a class="item">Tank Tops</a>
+          <a class="item">Shirts</a>
+        </div>
+    </div>
+
+    <div class="ui dropdown item">WOMEN
+        <i class="caret down icon"></i>
+        <div class="menu">
+          <a class="item">Tank Tops</a>
+          <a class="item">Shirts</a>
+        </div>
+    </div>
+
+    <div class="ui dropdown item">KIDS
       <i class="caret down icon"></i>
-    </div></a>
-    <a class="item">KIDS<div class="ui dropdown">
+      <div class="menu">
+        <a class="item">Shirts</a>
+        <a class="item">Onesies</a>
+      </div>
+    </div>
+
+    <div class="ui dropdown item">BRANDS
       <i class="caret down icon"></i>
-    </div></a>
-    <a class="item">BRANDS<div class="ui dropdown">
-      <i class="caret down icon"></i>
-    </div></a>
-    <a class="item">SEARCH<div class="ui dropdown">
-      <i class="caret down icon"></i>
-    </div></a>
+      <div class="menu">
+        <a class="item">Aloha Surf Project</a>
+        <a class="item">Da Mokes</a>
+      </div>
+    </div>
+
+    <div class="ui dropdown item">SEARCH</div>
+
   </div>
 </div>
 
 <img class="ui flluid image" src="https://cdn.shopify.com/s/files/1/1035/5187/t/5/assets/slide1.jpg?15691486226381689305">
+
+<script>
+  $('.ui.dropdown')
+      .dropdown();
+</script>
 
 </body>
 </html>
